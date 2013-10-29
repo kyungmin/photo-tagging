@@ -1,0 +1,10 @@
+<div id="content"></div>
+<div id="create-photo-form"></div>
+
+<script type="text/javascript">
+(function(){
+  CURRENT_USER_ID = <%= current_user.id %>;
+
+  PT.initialize($('#content'), $('#create-photo-form'));
+})(this);
+</script>
